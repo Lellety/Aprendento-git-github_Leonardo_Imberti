@@ -7,18 +7,26 @@ git push --set-upstream origin master
  $ git add .   
 
 2° 
-
- → para verificar os arquivo criado utilizar o cod.
+→ para verificar os arquivo criado utilizar o cod.
 $ git status
 
 3° 
-
- → fazer Adicção de comentarios ao arquivo modificado
-
+→ fazer Adicção de comentarios ao arquivo modificado
 $ git commit -m " obs. Comentário desejado"
 
 4° 
- → enviar o arquivo no github
-
+→ enviar o arquivo no github
 $ git push
+
+
+5° 
+→ para verificar a versão ( atualização ) do seu cod. enviado para github ( histórico )
+$ git reflog
+
+6° 
+→ como navegar entre as versões ( atualização ) dos cod enviado ao github ( obs. caso seja necessário em caso de erro nos cod editado)
+$ git reset --hard ( obs. mais o cod. do Id da versão )
+
+
+
 
