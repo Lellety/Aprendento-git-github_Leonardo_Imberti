@@ -1,0 +1,24 @@
+git push --set-upstream origin master
+
+1°   
+ → para adicionar um unico arquivo
+ $ git add "nome do arquivo" 
+ → para adcionar varios arquivos
+ $ git add .   
+
+2° 
+
+ → para verificar os arquivo criado utilizar o cod.
+$ git status
+
+3° 
+
+ → fazer Adicção de comentarios ao arquivo modificado
+
+$ git commit -m " obs. Comentário desejado"
+
+4° 
+ → enviar o arquivo no github
+
+$ git push
+
