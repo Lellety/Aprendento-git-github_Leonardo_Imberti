@@ -27,6 +27,25 @@ $ git reflog
 → como navegar entre as versões ( atualização ) dos cod enviado ao github ( obs. caso seja necessário em caso de erro nos cod editado)
 $ git reset --hard ( obs. mais o cod. do Id da versão )
 
+7°
+→ para verificar as branch ( caminhos )
+$ git branch
+
+→ para adiconar uma branch ( caminhos )
+$ git branch ( obs, mais o nome desejado )
+ex: 
+$ git branch staging
+
+→ para selecionar o branch pra edição ou envio
+$ git checkout staging
+
+
+
+
+
+
+
+
 
 
 
