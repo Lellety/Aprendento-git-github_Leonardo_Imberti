@@ -39,6 +39,14 @@ $ git branch staging
 → para selecionar o branch pra edição ou envio
 $ git checkout staging
 
+8°
+→ para atualizar ( equalizar ) os branch ( caminhos ) apos as edição aprovadas.
+tem que estar na branch que vai receber o arquivo atualizado e usar o comando de de onde vai puxar o arquivo
+ex: estar na master e puxar da staging
+$ git merge staging
+
+
+
 
 
 
